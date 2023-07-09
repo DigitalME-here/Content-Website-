@@ -69,7 +69,7 @@ function getRandomTimeInterval(min, max) {
 }
 // Including Dialog Popup
 function includeDialogPopup() {
-    const URL = 'reload-elements/dialog-reload.html';
+    const URL = 'https://digitalme-here.github.io/Content-Website-/dialog-reload.html';
     fetch(URL)
         .then(res => res.text())
         .then(text => {
